@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="1" failures="0" name="testRunner.TestRunner" time="7.205" errors="1" skipped="0">
+<testsuite tests="1" failures="0" name="testRunner.TestRunner" time="12.902" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="java.vm.version" value="17.0.1+12-LTS-39"/>
@@ -22,7 +22,7 @@
 "/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="os.name" value="Mac OS X"/>
-    <property name="classworlds.conf" value="/Users/sairam/eclipse-workspace/.metadata/.plugins/org.eclipse.m2e.launching/launches/m2conf3177489441060088582.tmp"/>
+    <property name="classworlds.conf" value="/Users/sairam/eclipse-workspace/.metadata/.plugins/org.eclipse.m2e.launching/launches/m2conf5107730097195627136.tmp"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
     <property name="java.library.path" value="/Users/sairam/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
     <property name="jdk.debug" value="release"/>
@@ -56,27 +56,5 @@
     <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
   </properties>
-  <testcase classname="validate login" name="Successful Login" time="7.205">
-    <error message="Unable to find element with locator By.xpath: //input[@id=&apos;input-email&apos;]
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: &apos;4.20.0&apos;, revision: &apos;866c76ca80&apos;
-System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;12.7.6&apos;, java.version: &apos;17.0.1&apos;
-Driver info: driver.version: RemoteWebDriver" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: Unable to find element with locator By.xpath: //input[@id=&apos;input-email&apos;]
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: &apos;4.20.0&apos;, revision: &apos;866c76ca80&apos;
-System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;12.7.6&apos;, java.version: &apos;17.0.1&apos;
-Driver info: driver.version: RemoteWebDriver
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:168)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
-	at stepDefinitions.Login.enter_UserID_And_Pass(Login.java:32)
-	at ✽.the user enters valid credentials (username: &quot;deals4sekhar@gmail.com&quot;, password: &quot;password123&quot;)(file:///Users/sairam/eclipse-workspace/Pilot/./Feature/login.feature:5)
-</error>
-    <system-out>application launched sucessfully
-</system-out>
-    <system-err>Sep 13, 2024 6:18:40 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find an exact match for CDP version 128, returning the closest version; found: 124; Please update to a Selenium version that supports CDP version 128
-</system-err>
-  </testcase>
+  <testcase classname="validate login" name="Successful Login" time="12.902"/>
 </testsuite>
